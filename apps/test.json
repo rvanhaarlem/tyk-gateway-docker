@@ -6,6 +6,9 @@
         "location": "header",
         "key": "version"
     },
+    "auth": {
+        "auth_header_name": "Authorization"
+    },
     "version_data": {
         "not_versioned": true,
         "versions": {
