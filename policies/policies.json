@@ -1,7 +1,7 @@
 {
   "myclient": {
     "access_rights": {
-      "2": {
+      "0d2a958c468d4b98bd87c3aadd8ddef2": {
         "allowed_urls": [],
         "api_id": "2",
         "api_name": "My Client API",
