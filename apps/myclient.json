@@ -7,7 +7,8 @@
         "key": "version"
     },
     "use_oauth2": true,
-    "allowed_access_types":[
+    "oauth_meta": {
+      "allowed_access_types":[
          "authorization_code",
          "refresh_token",
          "password",
@@ -17,7 +18,8 @@
          "code",
          "token"
       ],
-      "auth_login_redirect":"<auth_login_redirect>",
+      "auth_login_redirect":"http://www.google.com"
+   },
     "version_data": {
         "not_versioned": true,
         "versions": {
