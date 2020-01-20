@@ -1,0 +1,21 @@
+{
+  "myclient": {
+    "access_rights": {
+      "2": {
+        "allowed_urls": [],
+        "api_id": "2",
+        "api_name": "My Client API",
+        "versions": [
+            "Default"
+        ]
+    }
+  },
+  "active": true,
+  "name": "myclient",
+  "rate": 100,
+  "per": 1,
+  "quota_max": 10000,
+  "quota_renewal_rate": 3600,
+  "tags": []
+  }
+}
