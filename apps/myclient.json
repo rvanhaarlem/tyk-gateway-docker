@@ -6,7 +6,7 @@
         "location": "header",
         "key": "version"
     },
-    “use_oauth2”: true,
+    "use_oauth2": true,
     "allowed_access_types":[
          "authorization_code",
          "refresh_token",
