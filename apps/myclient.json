@@ -6,9 +6,18 @@
         "location": "header",
         "key": "version"
     },
-    "auth": {
-        "auth_header_name": "Authorization"
-    },
+    “use_oauth2”: true,
+    "allowed_access_types":[
+         "authorization_code",
+         "refresh_token",
+         "password",
+         "client_credentials"
+      ],
+      "allowed_authorize_types":[
+         "code",
+         "token"
+      ],
+      "auth_login_redirect":"<auth_login_redirect>",
     "version_data": {
         "not_versioned": true,
         "versions": {
