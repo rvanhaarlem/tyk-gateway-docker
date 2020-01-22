@@ -1,4 +1,13 @@
 {
+  "last_check": 0,
+  "allowance": 2,
+  "rate": 3,
+  "per": 1,
+  "expires": -1,
+  "quota_max": 1000,
+  "quota_renews": 1429804261,
+  "quota_remaining": 994,
+  "quota_renewal_rate": 90000,
   "default": {
     "access_rights": {
       "2": {
@@ -10,5 +19,11 @@
         ]
       }
     }
-  }
+  },
+  "org_id": "default",
+  "oauth_client_id": "",
+  "basic_auth_data": {},
+  "hmac_enabled": false,
+  "hmac_string": "",
+  "is_inactive": false
 }
