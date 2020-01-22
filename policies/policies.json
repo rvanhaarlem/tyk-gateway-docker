@@ -16,6 +16,7 @@
   "per": 1,
   "quota_max": 10000,
   "quota_renewal_rate": 3600,
+  "key_expires_in": 0,
   "tags": []
   }
 }
