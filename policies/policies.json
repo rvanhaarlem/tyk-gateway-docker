@@ -1,22 +1,13 @@
 {
-  "org_id": "default",
-  "rate": 3,
-  "per": 1,
-  "quota_max": 1000,
-  "quota_renewal_rate": 90000,
-  "access_rights": {
-    "2": {
-      "apiname": "My Client API",
-      "apiid": "2",
-      "versions": [
-        "Default"
-      ],
-      "allowed_urls": []
+  "default": {
+    "access_rights": {
+      "2": {
+        "allowed_urls": [],
+        "api_id": "2",
+        "api_name": "My Client API",
+        "versions": [
+            "Default"
+        ]
     }
-  },
-  "active": true,
-  "is_inactive": false,
-  "tags": [],
-  "key_expires_in": 0
   }
 }
