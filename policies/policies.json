@@ -1,11 +1,11 @@
 {
-  org_id: "default",
-  rate: 3,
-  per: 1,
-  quota_max: 1000,
-  quota_renewal_rate: 90000,
-  access_rights: {
-    2: {
+  "org_id": "default",
+  "rate": 3,
+  "per": 1,
+  "quota_max": 1000,
+  "quota_renewal_rate": 90000,
+  "access_rights": {
+    "2": {
       apiname: "My Client API",
       apiid: "2",
       versions: [
@@ -14,9 +14,9 @@
       allowed_urls: []
     }
   },
-  active: true,
-  is_inactive: false,
-  tags: [],
-  key_expires_in: 0
+  "active": true,
+  "is_inactive": false,
+  "tags": [],
+  "key_expires_in": 0
   }
 }
